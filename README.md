@@ -48,5 +48,6 @@ To get started you will want to run `make folders` to generate the folders for e
 Then to generate program name .tex files for each program you have listed in the `programs` text files, you will want to run `make names` and `make specific_paragraphs`.
 You can now write your SOP normally, using the `\input{}` command to include the common components of your SOP.
 Now instead of having ~30 SOPs that each need to be updated individually, you can now have 30 SOPs where you only need to update the common components once, and then run `make` to update all of the SOPs.
+Make sure to put all common inputs in the `entries` folder.
 
 If you have any issues, please feel free to create a new issue on this repository and I will try to help you out.
